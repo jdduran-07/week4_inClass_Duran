@@ -49,12 +49,13 @@ if (timeLeft==0){
       window.alert('Congrats! You got 100')
    }
    else //step 6c
+   {
       timeLeft = quizTime 
       quizClock.value = timeLeft
        overlay.className = "hidequiz"
      
       
-         window.alert('You answered corect' +totalCorrect+
+       window.alert('You answered corect' +totalCorrect+
             'out of' +correctAnswers.length+ 'questions')
          
    }
