@@ -44,7 +44,7 @@ if (timeLeft==0){
    
    let totalCorrect = checkAnswers() //6B
 
-   if (otalCorrect==correctAnswers.length)
+   if (totalCorrect==correctAnswers.length)
    {
       window.alert('Congrats! You got 100')
    }
