@@ -65,7 +65,7 @@ else { //step 7
    timeLeft --;
    quizClock.value = timeLeft
 }
-
+}
 
 
 
